@@ -31,8 +31,6 @@
         # Reusability: Functions can be reused in other parts of the program or in different programs.
         # Clarity: Functions encapsulate specific tasks, making the code easier to read and understand.
 
-# This script efficiently handles temperature conversions with clear and concise code, leveraging the advantages of f-strings for formatting and functions for modularity.
-
 
 def fahrenheit_to_celsius(fahrenheit):
     return (fahrenheit - 32) * 5 / 9
