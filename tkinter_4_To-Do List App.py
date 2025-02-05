@@ -12,15 +12,6 @@ def add_task():
     else:
         messagebox.showwarning("Warning", "You must enter a task.")
 
-def delete_task():
-    try:
-        index = listbox.curselection()[0]
-        listbox.delete(index)
-        del tasks[index]
-
-    except:
-        messagebox.showwarning("Warning", "Select a task to delete")
-
 root = tk.Tk()
 root.title("To-do list")
 
